@@ -1,6 +1,6 @@
 @use "@angular/material" as mat;
 @include mat.core();
-@import "/src/assets/themes.scss";
+@import "./assets/themes.scss";
 
 mat.$theme-ignore-duplication-warnings: true;
 

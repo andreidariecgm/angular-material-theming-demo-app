@@ -19,13 +19,13 @@ import { MatTableModule } from '@angular/material/table';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatToolbarModule } from '@angular/material/toolbar';
 
-import { AppRoutingModule } from 'src/app/app-routing.module';
-import { AppComponent } from 'src/app/app.component';
-import { FirstComponent } from 'src/app/first/first.component';
-import { SecondComponent } from 'src/app/second/second.component';
-import { ThirdComponent } from 'src/app/second/third/third.component';
-import { CircleComponent } from 'src/app/first/circle/circle.component';
-import { DialogExampleComponent } from 'src/app/shared/dialog-example/dialog-example.component';
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import { FirstComponent } from './first/first.component';
+import { SecondComponent } from './second/second.component';
+import { ThirdComponent } from './second/third/third.component';
+import { CircleComponent } from './first/circle/circle.component';
+import { DialogExampleComponent } from './shared/dialog-example/dialog-example.component';
 
 @NgModule({
   declarations: [

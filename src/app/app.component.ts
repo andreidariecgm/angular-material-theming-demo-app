@@ -2,8 +2,8 @@ import { OverlayContainer } from '@angular/cdk/overlay';
 import { Component, HostBinding, OnDestroy, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
 
-import { Theme, ThemeType } from 'src/app/shared/theme';
-import { ThemeService } from 'src/app/shared/theming.service';
+import { Theme, ThemeType } from './shared/theme';
+import { ThemeService } from './shared/theming.service';
 
 @Component({
   selector: 'amt-root',
