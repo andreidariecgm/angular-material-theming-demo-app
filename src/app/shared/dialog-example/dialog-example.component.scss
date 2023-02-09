@@ -1,0 +1,14 @@
+@use "sass:map";
+@import "src/assets/themes";
+
+:host {
+  display: block;
+}
+
+:host-context(.cherry-theme) {
+  background-color: map.get($cherry-theme, 'primary', 'default');
+}
+
+:host-context(.lemon-theme) {
+  background-color: map.get($lemon-theme, 'primary', 'default');
+}

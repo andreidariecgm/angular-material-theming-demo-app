@@ -1,0 +1,105 @@
+// SASS maps
+// https://sass-lang.com/documentation/values/maps
+
+// Palettes Creation Tool
+// https://materialpalettes.com
+
+$lemon-palette: (
+  50: #fdfbe6,
+  100: #f9f4c1,
+  200: #f5ed98,
+  300: #f2e66f,
+  400: #efe151,
+  500: #eddc32,
+  600: #ebcb2c,
+  700: #e9b424,
+  800: #e79c1b,
+  900: #e2750b,
+  contrast: (
+    50: rgba(black, 0.87),
+    100: rgba(black, 0.87),
+    200: rgba(black, 0.87),
+    300: rgba(black, 0.87),
+    400: rgba(black, 0.87),
+    500: rgba(black, 0.87),
+    600: rgba(black, 0.87),
+    700: rgba(black, 0.87),
+    800: rgba(black, 0.87),
+    900: white,
+  ),
+);
+
+$sky-palette: (
+  50: #e3f4fa,
+  100: #b9e2f2,
+  200: #90cfea,
+  300: #6fbcdf,
+  400: #5faed9,
+  500: #55a1d2,
+  600: #4f94c3,
+  700: #4681b0,
+  800: #41719c,
+  900: #345278,
+  contrast: (
+    50: rgba(black, 0.87),
+    100: rgba(black, 0.87),
+    200: rgba(black, 0.87),
+    300: rgba(black, 0.87),
+    400: rgba(black, 0.87),
+    500: rgba(black, 0.87),
+    600: white,
+    700: white,
+    800: white,
+    900: white,
+  ),
+);
+
+$cherry-palette: (
+  50: #fce4ed,
+  100: #f9bad1,
+  200: #f68db3,
+  300: #f35f95,
+  400: #f0397d,
+  500: #ee0265,
+  600: #dc0163,
+  700: #c6005d,
+  800: #b1005a,
+  900: #8c0052,
+  contrast: (
+    50: rgba(black, 0.87),
+    100: rgba(black, 0.87),
+    200: rgba(black, 0.87),
+    300: white,
+    400: white,
+    500: white,
+    600: white,
+    700: white,
+    800: white,
+    900: white,
+  ),
+);
+
+$lime-palette: (
+  50: #eaf6e7,
+  100: #cce9c5,
+  200: #abdba1,
+  300: #89ce79,
+  400: #6fc35c,
+  500: #56b83c,
+  600: #4ca933,
+  700: #3f9728,
+  800: #33861d,
+  900: #1d660a,
+  contrast: (
+    50: rgba(black, 0.87),
+    100: rgba(black, 0.87),
+    200: rgba(black, 0.87),
+    300: rgba(black, 0.87),
+    400: rgba(black, 0.87),
+    500: rgba(black, 0.87),
+    600: white,
+    700: white,
+    800: white,
+    900: white,
+  ),
+);

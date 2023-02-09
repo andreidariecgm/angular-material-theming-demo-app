@@ -1,0 +1,25 @@
+@use "sass:map";
+@import "src/assets/themes";
+
+:host {
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:host-context(.cherry-theme) {
+  // border: 1px solid map.get($cherry-theme, "foreground", "divider");
+  // background-color: map.get($cherry-theme, "background", "card");
+  background-color: map.get($cherry-theme, "primary", "default");
+}
+
+:host-context(.lemon-theme) {
+  // border: 1px solid map.get($lemon-theme, "foreground", "divider");
+  // background-color: map.get($lemon-theme, "background", "card");
+  background-color: map.get($lemon-theme, "primary", "default");
+}

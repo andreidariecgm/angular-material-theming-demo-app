@@ -1,0 +1,25 @@
+@use "@angular/material" as mat;
+@include mat.core();
+@import "/src/assets/themes.scss";
+
+mat.$theme-ignore-duplication-warnings: true;
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+.lemon-theme {
+  @include mat.all-component-themes($lemon-theme);
+}
+
+.cherry-theme {
+  @include mat.all-component-themes($cherry-theme);
+}

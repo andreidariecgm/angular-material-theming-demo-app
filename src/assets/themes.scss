@@ -1,0 +1,33 @@
+@use "@angular/material" as mat;
+@import "./palettes";
+
+// Angular Material Official Guides
+// https://material.angular.io/guides
+
+$typography: mat.define-typography-config();
+
+$lemon-primary: mat.define-palette($lemon-palette, 600);
+$lemon-accent: mat.define-palette($sky-palette, 500);
+$lemon-theme: mat.define-light-theme(
+  (
+    color: (
+      primary: $lemon-primary,
+      accent: $lemon-accent,
+    ),
+    typography: $typography,
+    density: 0,
+  )
+);
+
+$cherry-primary: mat.define-palette($cherry-palette, 500);
+$cherry-accent: mat.define-palette($lime-palette, 500);
+$cherry-theme: mat.define-dark-theme(
+  (
+    color: (
+      primary: $cherry-primary,
+      accent: $cherry-accent,
+    ),
+    typography: $typography,
+    density: 0,
+  )
+);

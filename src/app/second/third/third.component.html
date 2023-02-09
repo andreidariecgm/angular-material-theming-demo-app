@@ -1,0 +1,65 @@
+<h3>Checkbox</h3>
+<mat-checkbox [checked]="true">Esse id esse dolore reprehenderit</mat-checkbox>
+
+<br />
+<mat-divider></mat-divider>
+
+<h3>Radio buttons</h3>
+<mat-radio-group value="2">
+  <mat-radio-button value="1">Option 1</mat-radio-button>
+  <mat-radio-button value="2">Option 2</mat-radio-button>
+</mat-radio-group>
+
+<br />
+<mat-divider></mat-divider>
+
+<h3>Input</h3>
+<mat-form-field appearance="outline" color="accent">
+  <mat-label>Input</mat-label>
+  <input matInput>
+</mat-form-field>
+
+<br />
+<mat-divider></mat-divider>
+
+<h3>Select</h3>
+<mat-form-field appearance="outline" color="accent">
+  <mat-label>Select an option</mat-label>
+  <mat-select [(value)]="selected">
+    <mat-option>None</mat-option>
+    <mat-option value="option1">Option 1</mat-option>
+    <mat-option value="option2">Option 2</mat-option>
+    <mat-option value="option3">Option 3</mat-option>
+  </mat-select>
+</mat-form-field>
+<br />
+<mat-divider></mat-divider>
+
+<h3>Chips</h3>
+<mat-chip-listbox aria-label="Fish selection">
+  <mat-chip-option>One fish</mat-chip-option>
+  <mat-chip-option selected>Two fish</mat-chip-option>
+  <mat-chip-option color="accent">Accent fish</mat-chip-option>
+  <mat-chip-option color="warn">Warn fish</mat-chip-option>
+</mat-chip-listbox>
+<br />
+<mat-divider></mat-divider>
+
+<h3>Slider</h3>
+<mat-slider color="accent">
+  <input matSliderThumb>
+</mat-slider>
+
+<br />
+<mat-divider></mat-divider>
+
+<h3>Buttons</h3>
+<button mat-button color="primary">Simple Primary</button>&nbsp;
+<button mat-button color="accent">Simple Accent</button>&nbsp;
+<button mat-raised-button color="primary">Raised Primary</button>&nbsp;
+<button mat-raised-button color="accent">Raised Accent</button>&nbsp;
+<button mat-raised-button disabled>Raised Disabled</button>&nbsp;
+
+<br />
+<br />
+<mat-divider></mat-divider>
